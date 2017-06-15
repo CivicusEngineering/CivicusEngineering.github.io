@@ -1,5 +1,5 @@
 
-/* ------------ home page below -------------*/
+/* ------------ Navigation Menu below -------------*/
 
 body {
 margin: 0;
@@ -7,6 +7,7 @@ padding: 0;
 height: 100%;
 }
 
+/* original settings
 .nav {
 list-style: none;
 text-align: center;
@@ -20,9 +21,41 @@ display:inline;
 padding: 0 30px 0 30px;
 font-size: 20px;
 }
+*/
+
+
+
+.logo {
+    height: 62px;
+    width: 155px;
+    float: left;   
+}
+
+
+.logobox {
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.nav {
+list-style: none;
+text-align: right;
+padding: 20px 0 20px 0;
+background-color: #6B8184;
+padding-right: 290px;
+margin: 0;
+
+}
+
+.nav li {
+display: inline;
+padding: 0 30px 0 30px;
+font-size: 20px;
+}
 
 .nav li a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .nav li a:link {
@@ -37,6 +70,8 @@ color: white;
 text-decoration: underline;
 color: white;
 }
+
+/* ------------ Home/Index page below -------------*/
 
 #header {
 text-align: center;
