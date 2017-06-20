@@ -1,5 +1,4 @@
-
-/* ------------ Navigation Menu below -------------*/
+/* ------ New Navigation Section ---------- */
 
 body {
 margin: 0;
@@ -7,69 +6,101 @@ padding: 0;
 height: 100%;
 }
 
-/* original settings
-.nav {
-list-style: none;
-text-align: center;
-padding: 20px 0 20px 0;
-background-color: #6B8184;
-margin: 0;
+nav ul h1 {
+    float: left;
+    color: white;
+    margin: 0;
 }
-
-.nav li {
-display:inline;
-padding: 0 30px 0 30px;
-font-size: 20px;
-}
-*/
-
-
 
 .logo {
-    height: 62px;
-    width: 155px;
-    float: left;   
+   float: left;
+   height: 62px;
+   width: 155px;  
 }
 
-
-.logobox {
+nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline;
+    overflow: hidden;
+    background-color: #111;
+    display: inline-block;
+    text-align: right;
+    width: 100%; 
+    font-size: 17px;
 }
 
-.nav {
-list-style: none;
-text-align: right;
-padding: 20px 0 20px 0;
-background-color: #6B8184;
-padding-right: 290px;
-margin: 0;
-
+nav ul li {
+    display: inline-block;
+    height: 62px;
+    margin: 0;   
 }
 
-.nav li {
-display: inline;
-padding: 0 30px 0 30px;
-font-size: 20px;
-}
-
-.nav li a {
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-right: 15px;
     text-decoration: none;
+    height: 62px;
+    padding: 21px 14px 21px 16px;
 }
 
-.nav li a:link {
-color: white;
+nav ul li a:hover {
+    background-color: #333;
 }
 
-.nav li a:visited {
-color: white;
+/* ------End of New Navigation Section ----------  */
+
+/* ----- Footer Section Below ----- */
+
+
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    display: inline-block;
+    text-align: center;
+    width: 100%; 
+    font-size: 15px;
+    color: white;
+    position: absolute;
 }
 
-.nav li a:hover {
-text-decoration: underline;
-color: white;
+footer ul li {
+    display: inline-block;
+    height: 62px;
+    margin: 20px 0 -21px 0;   
+    padding: 0px 14px 0 14px;
+    overflow: hidden;
+    text-align: center;
 }
+
+footer ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-right: 15px;
+    text-decoration: none;
+  
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    background-color: #4a4e92;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
 
 /* ------------ Home/Index page below -------------*/
 
@@ -175,7 +206,7 @@ form {
 #portcontain {
     width: 700px;
     text-align: center;
-    background-color: lightblue;
+    /*background-color: lightblue;*/
     margin: auto;
 }
 
