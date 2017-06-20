@@ -100,7 +100,20 @@ footer ul li a:hover {
     overflow: hidden;
 }
 
+/*
+#copyright p {
+    display: inline-block;
+    padding-right: 60%;
+}
 
+#copyright a {
+    display: inline-block;
+    color: white;
+    padding: 0 20px 0 20px;
+    text-align: right;
+    
+}
+*/
 
 /* ------------ Home/Index page below -------------*/
 
@@ -114,6 +127,11 @@ height: 300px;
 width: 700px;
 }
 
+#header figcaption {
+    text-align: right;
+    width: 700px;
+    margin: auto;
+}
 
 #civicus {
 text-align: center;
@@ -164,7 +182,10 @@ display: inline-block;
 
 #descrip2 {
 margin: 0 200px 0 200px;
-background-color: green;
+}
+
+#aboutus {
+text-align: center;
 }
 
 #descrip2 img {
@@ -172,12 +193,14 @@ height: 300px;
 width: 600px;
 margin: auto;
 display: block;
-
 }
 
-#aboutus {
-text-align: center;
+#descrip2 figcaption {
+    text-align: right;
+    margin: auto;
+    width: 600px;
 }
+
 
 
 
@@ -210,16 +233,66 @@ form {
     margin: auto;
 }
 
+#portcontain h3 {
+    text-align: center;
+}
+
 #pro1 {
     text-align: left;
 }
+
+
 
 #pro2 {
     text-align: left;
 }
 
+#pro2 img {
+    height: 230px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#pro2 figcaption {
+    text-align: right;
+    width: 500px;
+    margin: auto;
+}
+
+#pro2 figcaption a:link {
+    text-decoration: none;
+}
+
+#pro2 figcaption a {
+color: blue;
+}
+
+#pro2 figcaption a:visited {
+    color: blue;
+}
+
+#pro2 figcaption a:hover {
+    text-decoration: underline;
+}
+
+
+
 #pro3 {
     text-align: left;
+}
+
+#pro3 img {
+    height: 230px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#pro3 figcaption {
+    text-align: right;
+    width: 500px;
+    margin: auto;
 }
 
 
