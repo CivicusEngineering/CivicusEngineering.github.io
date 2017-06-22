@@ -1,10 +1,14 @@
-/* ------ New Navigation Section ---------- */
+* {
+    font-family: Sans-Serif, Serif, "Times New Roman"
+}
 
 body {
 margin: 0;
 padding: 0;
 height: 100%;
 }
+
+/* ------ New Navigation Section ---------- */
 
 nav ul h1 {
     float: left;
@@ -51,70 +55,89 @@ nav ul li a:hover {
 }
 
 /* ------End of New Navigation Section ----------  */
+/* ----- new footer ----- */
 
-/* ----- Footer Section Below ----- */
-
-
-
-footer ul {
-    list-style-type: none;
+#footeritems {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #111;
-    display: inline-block;
-    text-align: center;
-    width: 100%; 
-    font-size: 15px;
-    color: white;
-    position: absolute;
 }
 
-footer ul li {
-    display: inline-block;
-    height: 62px;
-    margin: 20px 0 -21px 0;   
-    padding: 0px 14px 0 14px;
-    overflow: hidden;
-    text-align: center;
+#footeritems ul {
+list-style-type: none;
+background-color: black;
+padding: 15px 0 15px 0;
+text-align: center;
+margin: 0;
 }
 
-footer ul li a {
-    display: block;
-    color: white;
+#footeritems ul li {
+    display: inline-block;
     text-align: center;
-    margin-right: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+#footeritems ul li a {
+    color: white;
     text-decoration: none;
-  
 }
 
-footer ul li a:hover {
+#footeritems ul p {
+    display: inline-block;
+    color: white;
+}
+
+#footeritems ul li a:link {
+    color: white;
+}
+
+#footeritems ul li a:visited {
+    color: white;
+}
+
+#footeritems ul li a:hover {
+    color: white;
     text-decoration: underline;
 }
 
-#copyright {
-    background-color: #4a4e92;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-/*
-#copyright p {
-    display: inline-block;
-    padding-right: 60%;
-}
-
-#copyright a {
-    display: inline-block;
+#legal {
+    background-color: rgba(23, 23, 23, 0.96);;
     color: white;
-    padding: 0 20px 0 20px;
-    text-align: right;
-    
+    margin: 0;
+    padding: 10px 0px 10px 0;
 }
-*/
 
+
+
+#legal p {
+    display: inline;
+    text-align: left;
+    color: white;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+#legal a {
+    color: white;
+    float: right;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+    margin: 0 10px 0 10px;
+    font-size: 15px;
+}
+
+#legal a:link {
+    color: white;
+}
+
+#legal a:visited {
+    color: white;
+}
+
+#legal a:hover {
+    color: white;
+    text-decoration: underline;
+}
+/* ----- End of New footer ----- */
 /* ------------ Home/Index page below -------------*/
 
 #header {
