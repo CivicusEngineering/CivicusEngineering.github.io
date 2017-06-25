@@ -8,6 +8,15 @@ padding: 0;
 height: 100%;
 }
 
+hr {
+    border-color: black; /* Color doesn't work */
+    border-bottom: 0;
+}
+
+figcaption {
+    /*text-align: center;*/
+    font-style: italic;
+}
 /* ------ New Navigation Section ---------- */
 
 nav ul h1 {
@@ -28,16 +37,17 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #111;
-    display: inline-block;
     text-align: right;
     width: 100%; 
-    font-size: 17px;
+    
 }
 
 nav ul li {
     display: inline-block;
-    height: 62px;
-    margin: 0;   
+    /*height: 62px;*/
+    margin: 0;  
+    padding: 0; 
+    
 }
 
 nav ul li a {
@@ -47,14 +57,66 @@ nav ul li a {
     margin-right: 15px;
     text-decoration: none;
     height: 62px;
-    padding: 21px 14px 21px 16px;
+    padding: 0 14px 0 16px;
+    line-height: 62px; /* Centering text, have line-height equal height */
+    font-weight: bold; 
+    
+    
 }
 
 nav ul li a:hover {
     background-color: #333;
 }
 
-/* ------End of New Navigation Section ----------  */
+nav ul li ul {
+    display: none;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li ul li {
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li ul li a {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+nav ul li:hover ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 230px; /* width of dropdown menu items */
+    text-align: center; 
+    background-color: #373c4f;
+    
+}
+
+nav ul li:hover ul li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:hover ul li a {
+    height: 50px;
+    text-align: left; /* alignment for dropdown items */
+    padding-left: 10px;
+    line-height: 50px; /* line height equals height */
+    
+}
+/* ------ End of New Navigation Section ---------- */
+
 /* ----- new footer ----- */
 
  
@@ -236,6 +298,15 @@ display: block;
 
 
 /*.....................Contact page below...........*/
+#form1 p {
+    text-align: center;
+}
+
+#form1 select {
+    display: block;
+    margin: auto;
+}
+
 form {
     margin: auto;
     text-align: center;
@@ -323,6 +394,48 @@ color: blue;
     text-align: right;
     width: 500px;
     margin: auto;
+    font-style: italic;
 }
 
+
+/* ----- End of Portfolio Page ----- */
+
+/* ----- Begin Privacy Policy ----- */
+#privacy {
+    margin: auto;
+    width: 800px;
+}
+
+#privacy h1 {
+    text-align: center;
+}
+
+#privacy a {
+    color: blue;
+    text-decoration: none;
+}
+
+#privacy a:hover {
+    text-decoration: underline;
+}
+/* ----- End of Privacy Policy ----- */
+
+/* ----- Begin Terms of Use ----- */
+#terms {
+    margin: auto;
+    width: 800px;
+}
+
+#terms h1 {
+    text-align: center;
+}
+
+#terms a {
+    color: blue;
+    text-decoration: none;
+}
+
+#terms a:hover {
+    text-decoration: underline;
+}
 

@@ -27,10 +27,27 @@
         </h1>
 
         <li><a href="index.html">Home</a></li>
-		<li><a href="civicus_aboutus.html">About Us</a></li>
+		<li class="dropdown"><a>About</a>
+			<ul class="dropnav">
+                <li><a href="civicus_aboutus.html">About Us</a></li>
+                <li><a href="#">Mission Statement</a></li>
+                <li><a href="#">Origin Story</a></li>
+            </ul>
+		</li>
+		<li id="dropdown"><a>Services</a>
+           <ul id="dropnav">
+                <li><a href="#">Geotechnical</a></li>
+                <li><a href="#">Surveying</a></li>
+                <li><a href="#">Structural</a></li>
+				<li><a href="#">Construction</a></li>
+				<li><a href="#">Research and Development</a></li>
+            </ul>
+            
+
+        </li>
 		<li><a href="civicus_contact.html">Contact</a></li> 
 		<li><a href="civicus_portfolio.html">Portfolio</a></li>
-        
+        <li><a href ="#">Careers</a></li>
     </ul>
 
 </nav>
@@ -43,27 +60,44 @@
 
 	<h3>Need to contact us? Send us a message!</h3>
 
+	
+
 	<p>Have any questions? Need a quote? Please feel free to send us a message. Please leave your name, email, and the message. We will reply as soon as possible. Thank you!</p>
 
 	<br></br>
 
+	<p>Please select the type of service you want to send a message to.</p>
+	<select>
+		<option>General Inquiries</option>
+		<option>Geotechnical</option>
+		<option>Surveying</option>
+		<option>Structural</option>
+		<option>Construction</option>
+		<option>R & D</option>
+	</select>
+
+<br></br>
+
 	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 		<div class="row">
 			<label for="name">Your name:</label><br />
-			<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+			<input id="name" class="input" name="name" type="text" value="" size="30" required /><br />
 		</div>
 		<div class="row">
 			<label for="email">Your email:</label><br />
-			<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+			<input id="email" class="input" name="email" type="text" value="" size="30" required /><br />
 		</div>
 		<div class="row">
-			<label for="message">Your message:</label><br />
+			<label for="message">Your Message:</label><br />
 			<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
 		</div>
 		<input id="submit_button" type="submit" value="Send email" />
 	</form>						
 </div>
 
+<br></br>
+
+<p style="text-align: center";><em>By sending a message, you agree to the <a href="privacypolicy.html">Privacy Policy</a> and <a href="terms.html">Terms of Use</a>.</em></p>
 
 <br></br>
 <br></br>
@@ -84,8 +118,8 @@
 
     <div id="legal">
             <p>&copy; 2017 Civicus Engineering</p>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
+            <a href="privacypolicy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
     </div>
 </footer>
 
