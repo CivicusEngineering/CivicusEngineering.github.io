@@ -8,6 +8,7 @@
 	<meta charset="UTF-8">
 	<title>Civicus Engineering</title>
 	<link rel="stylesheet" type="text/css" href="medleystyles.css"/>
+	<script src="scripts.js"></script>
 </head>
 
 
@@ -29,10 +30,27 @@
         </h1>
 
         <li><a href="index.html">Home</a></li>
-		<li><a href="civicus_aboutus.html">About Us</a></li>
+		<li class="dropdown"><a>About</a>
+			<ul class="dropnav">
+                <li><a href="civicus_aboutus.html">About Us</a></li>
+                <li><a href="#">Mission Statement</a></li>
+                <li><a href="#">Origin Story</a></li>
+            </ul>
+		</li>
+        <li class="dropdown"><a>Services</a>
+           <ul class="dropnav">
+                <li><a href="#">Geotechnical</a></li>
+                <li><a href="#">Surveying</a></li>
+                <li><a href="#">Structural</a></li>
+				<li><a href="#">Construction</a></li>
+				<li><a href="#">Research and Development</a></li>
+            </ul>
+            
+
+        </li>
 		<li><a href="civicus_contact.html">Contact</a></li> 
 		<li><a href="civicus_portfolio.html">Portfolio</a></li>
-        
+        <li><a href ="#">Careers</a></li>
     </ul>
 
 </nav>
@@ -51,6 +69,12 @@
 			<figcaption id="figcap1">Courtesy: Google Images</figcaption>
 	</figure>
 </div>
+
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 
 
 <div id="descrip">
@@ -113,8 +137,8 @@
 
     <div id="legal">
             <p>&copy; 2017 Civicus Engineering</p>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Use</a>
+            <a href="privacypolicy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Use</a>
     </div>
 </footer>
 
