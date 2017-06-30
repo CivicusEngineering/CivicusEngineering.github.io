@@ -246,7 +246,7 @@ margin: auto;
 }
 
 #geo {
-background-color: green;
+/*background-color: green;*/
 padding: 0 40px 0 40px;
 margin-right: 30px;
 display: inline-block;
@@ -254,7 +254,7 @@ text-align: left;
 }
 
 #survey {
-background-color: yellow;
+/*background-color: yellow;*/
 padding: 20px 40px 0 40px;
 margin-right: 30px;
 display: inline-block;
@@ -262,7 +262,7 @@ text-align: left;
 }
 
 #struct {
-background-color: blue;
+/*background-color: blue;*/
 text-align: left;
 padding: 20px 40px 0 40px;
 display: inline-block;
@@ -274,17 +274,59 @@ display: inline-block;
 
 #descrip2 {
 margin: 0 200px 0 200px;
-}
-
-#aboutus {
 text-align: center;
 }
+
+.aboutus {
+text-align: center;
+}
+
+.headimage img/*.headimage img*/ {
+
+height: 100%;
+width: 100%;
+
+
+
+    /* The image used 
+    background-image: cover;
+
+     Full height 
+    height: 30%; 
+    width: 80%;
+
+    /* Center and scale the image nicely 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: auto;
+*/
+}
+
+
+/*
+.headimage { 
+   position: relative; 
+   width: 100%; 
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   text-align: center;
+}
+*/
+
 
 #descrip2 img {
 height: 300px;
 width: 600px;
 margin: auto;
 display: block;
+background-image: cover;
 }
 
 #descrip2 figcaption {
@@ -292,10 +334,6 @@ display: block;
     margin: auto;
     width: 600px;
 }
-
-
-
-
 
 /*.....................Contact page below...........*/
 #form1 p {
@@ -397,8 +435,85 @@ color: blue;
     font-style: italic;
 }
 
+#pro4 {
+    text-align: left;
+}
+
+#pro5 {
+    text-align: left;
+}
 
 /* ----- End of Portfolio Page ----- */
+
+/* ----- Begin Careers Page ----- */
+
+#career {
+    text-align: center;
+    width: 650px;
+    margin: auto;
+}
+
+#career h4 {
+    text-decoration: underline;
+}
+
+#career ul {
+    text-align: center;
+    color: darkblue;
+    list-style-type: none;
+    
+    text-align: center;
+    padding: 0;
+    
+}
+
+#career ul li {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+#career1 {
+    width: 300px;
+    height: 900px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: top;
+    
+}
+
+#career2 {
+    width: 300px;
+    height: 900px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#jobform {
+    text-align: center;
+    margin: auto;
+    margin-bottom: auto;
+    width: 600px;
+    /*background-color: lightsalmon;*/
+}
+
+#jobform hr {
+    width: 650px;
+}
+
+#files {
+    padding-left: 70px;
+    text-align: center;
+}
+
+.btn {
+    margin: 0 10px 0 10px;
+}
+
+
+/* ----- End of Careers Page ----- */
 
 /* ----- Begin Privacy Policy ----- */
 #privacy {
