@@ -745,12 +745,18 @@ color: blue;
     text-decoration: underline;
 }
 
+
+
+
+
 /* ----- Mobile Devices Optimization ----- */
 
-@media screen and (max-width:825px) { /* Ipads and Tablets */
+/* Ipads and Tablets */
+/*
+@media screen and (max-width:825px) { 
     
    header {
         width: 100%;
     }
 
-}
+}*/
