@@ -37,6 +37,7 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #111;
+    /*background-color: black;*/
     text-align: right;
     width: 100%; 
     
@@ -66,6 +67,7 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #333;
+    
 }
 
 nav ul li ul {
@@ -106,6 +108,7 @@ nav ul li:hover ul li {
     display: block;
     margin: 0;
     padding: 0;
+    
 }
 
 nav ul li:hover ul li a {
@@ -207,6 +210,7 @@ margin: 0;
     text-decoration: underline;
 }
 /* ----- End of New footer ----- */
+
 /* ------------ Home/Index page below -------------*/
 
 #header {
@@ -334,6 +338,193 @@ background-image: cover;
     margin: auto;
     width: 600px;
 }
+
+/* ----- All Service Format Pages (keep Division Content) ----- */
+#divisioncontent {
+    width: 710px;
+    margin: auto;
+    text-align: center;
+}
+
+#divisioncontent div {
+    margin: auto;
+    /*background-color: lightblue;*/
+    text-align: center;
+}
+
+#divisioncontent ul {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 25px;
+}
+
+#divisioncontent ul li {
+    text-decoration: none;
+    text-align: left;
+}
+
+/* ----- All Service Format Pages Above (keep Division Content) ----- */
+
+/* ----- Geotech Service Page ----- */
+#geotechhead {
+    margin: auto;
+    padding: 0;
+    width: 710px;
+    background-image: url("geotechheader.JPG");
+    background-size: 710px 340px;
+    background-repeat: none;
+    height: 340px;
+    vertical-align: top;
+}
+
+#geotechsubhead {
+    padding: 15%;
+    margin: auto;
+    
+}
+
+#geotechheader {
+    text-align: center;
+    color: white;
+    background-color: rgba(97,95,95,0.7);
+    font-weight: bold;
+    width: 350px;
+    letter-spacing: 2px;
+    margin: auto;
+    padding: 5%;
+}
+
+
+/* ----- Geotech Service Page Above ----- */
+
+/* ----- Surveying Service Page ----- */
+#surveyhead {
+    margin: auto;
+    padding: 0;
+    width: 710px;
+    background-image: url("http://forteandtablada.com/site/wp-content/uploads/2014/01/land-surveying.jpg");
+    background-size: 710px 340px;
+    background-repeat: no-repeat;
+    height: 340px;
+    vertical-align: top;
+}
+
+#surveysubhead {
+    padding: 15%;
+    margin: auto;
+    
+}
+
+#surveyheader {
+    text-align: center;
+    color: white;
+    background-color: rgba(97,95,95,0.7);
+    font-weight: bold;
+    width: 350px;
+    letter-spacing: 2px;
+    margin: auto;
+    padding: 5%;
+}
+
+
+/* ----- Surveying Service Page Above ----- */
+
+
+/* ----- Structural Service Page ----- */
+#structuralhead {
+    margin: auto;
+    padding: 0;
+    width: 710px;
+    background-image: url("structuralheader2.JPG");
+    background-size: 710px 350px;
+    background-repeat: no-repeat;
+    height: 350px;
+    vertical-align: top;
+}
+
+#structuralsubhead {
+    padding: 15%;
+    margin: auto;
+    
+}
+
+
+#structuralheader {
+    text-align: center;
+    color: white;
+    background-color: rgba(97,95,95,0.7);
+    font-weight: bold;
+    width: 280px;
+    letter-spacing: 2px;
+    margin: auto;
+    padding: 5%;
+}
+
+
+/* ----- Structural Service Page Above ----- */
+
+/* ----- Construction Service Page ----- */
+#constructionhead {
+    margin: auto;
+    padding: 0;
+    width: 710px;
+    background-image: url("http://engineering4india.com/upload_media/Structural%20Engineering.jpg");
+    background-repeat: no-repeat;
+    height: 340px;
+    vertical-align: top;
+}
+
+#constructionsubhead {
+    padding: 15%;
+    margin: auto;
+    
+}
+
+#constructionheader {
+    text-align: center;
+    color: white;
+    background-color: rgba(97,95,95,0.8);
+    font-weight: bold;
+    width: 350px;
+    letter-spacing: 2px;
+    margin: auto;
+    padding: 5%;
+}
+
+
+/* ----- Construction Service Page Above ----- */
+
+/* ----- Research and Development Service Page ----- */
+#randdhead {
+    margin: auto;
+    padding: 0;
+    width: 710px;
+    background-image: url("http://koigroup.com/wp-content/uploads/2011/06/raw_materials.jpg");
+    background-size: 710px 340px;
+    background-repeat: no-repeat;
+    height: 340px;
+    vertical-align: top;
+}
+
+#randdsubhead {
+    padding: 15%;
+    margin: auto;
+    
+}
+
+#randdheader {
+    text-align: center;
+    color: white;
+    background-color: rgba(97,95,95,0.7);
+    font-weight: bold;
+    width: 350px;
+    letter-spacing: 2px;
+    margin: auto;
+    padding: 5%;
+}
+
+
+/* ----- Research and Development Service Page Above ----- */
 
 /*.....................Contact page below...........*/
 #form1 p {
@@ -554,3 +745,12 @@ color: blue;
     text-decoration: underline;
 }
 
+/* ----- Mobile Devices Optimization ----- */
+
+@media screen and (max-width:825px) { /* Ipads and Tablets */
+    
+   header {
+        width: 100%;
+    }
+
+}
