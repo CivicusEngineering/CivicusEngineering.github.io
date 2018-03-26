@@ -634,6 +634,40 @@ color: blue;
     text-align: left;
 }
 
+#pro5 img {
+    height: 230px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#pro5 figcaption {
+    text-align: right;
+    width: 500px;
+    margin: auto;
+    font-style: italic;
+}
+
+#pro6 {
+    text-align: left;
+}
+
+#pro6 img {
+    height: 230px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#pro6 figcaption {
+    text-align: right;
+    width: 500px;
+    margin: auto;
+    font-style: italic;
+}
+
+
+
 /* ----- End of Portfolio Page ----- */
 
 /* ----- Begin Careers Page ----- */
