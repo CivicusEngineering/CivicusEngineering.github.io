@@ -666,6 +666,24 @@ color: blue;
     font-style: italic;
 }
 
+#pro7 {
+    text-align: left;
+}
+
+#pro7 img {
+    height: 230px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#pro7 figcaption {
+    text-align: right;
+    width: 500px;
+    margin: auto;
+    font-style: italic;
+}
+
 
 
 /* ----- End of Portfolio Page ----- */
