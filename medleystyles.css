@@ -684,6 +684,24 @@ color: blue;
     font-style: italic;
 }
 
+#pro8 {
+    text-align: left;
+}
+
+#pro8 img {
+    height: 230px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+#pro8 figcaption {
+    text-align: right;
+    width: 500px;
+    margin: auto;
+    font-style: italic;
+}
+
 
 
 /* ----- End of Portfolio Page ----- */
